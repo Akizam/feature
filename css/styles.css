@@ -1,0 +1,72 @@
+body{
+  font-family: "Poppins";
+  text-align: center;
+}
+.first {
+  font-weight: 200;
+  text-align: center;
+  padding-top: 4.5rem;
+
+}
+.second{
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.third{
+  text-align: center;
+  color: #D3D3D3;
+  width: 100%;
+
+  padding: 0 30% 3% ;
+}
+
+
+.a{
+  margin-top: 10rem;
+}
+.supervise{
+  border-top: 0.4rem solid hsl(212, 86%, 64%);
+}
+.team{
+  border-top: 0.4rem solid hsl(0, 78%, 62%);
+}
+.karma{
+  border-top: 0.4rem solid  hsl(34, 97%, 64%);
+}
+.calc{
+  border-top: 0.4rem solid hsl(180, 62%, 55%);
+}
+
+.icon{
+  position: relative;
+  left: 15rem;
+  padding-top: 2rem;
+
+}
+.feature-box{
+  font-size: 15px;
+}
+.all-boxes{
+  margin-bottom: 1.5rem;
+  text-align: left;
+  background-color: #fff;
+  padding: 3rem 2rem 2rem;
+  border-radius: 0.5rem;
+  filter: drop-shadow(0 7px 7px #D3D3D3);
+}
+.attribution{
+  margin: 3rem auto 1rem;
+}
+@media (max-width: 1000px) {
+  .a{
+    margin-top: 0;
+  }
+  .feature-box{
+    padding: 0 4rem;
+  }
+  .icon{
+    left: 13rem;
+
+  }
+}
